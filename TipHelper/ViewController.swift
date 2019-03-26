@@ -28,12 +28,14 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        tipControl.removeAllSegments()
-
         //update segemented control w/ user default percentages
-        tipControl.insertSegment(withTitle: "\(defaults.integer(forKey: "percent1"))%", at: 0, animated: true)
-        tipControl.insertSegment(withTitle: "\(defaults.integer(forKey: "percent2"))%", at: 1, animated: true)
-        tipControl.insertSegment(withTitle: "\(defaults.integer(forKey: "percent3"))%", at: 2, animated: true)
+        tipControl.removeAllSegments()
+       
+        let percents = [defaults.integer(forKey: "percent1"), defaults.integer(forKey: "percent2"), defaults.integer(forKey: "percent3")]
+        
+        for i in 0...(percents.count - 1){
+            tipControl.insertSegment(withTitle: "\(percents[i])%", at: i, animated: true)
+        }
     }
 
     @IBAction func onTap(_ sender: Any) {
