@@ -9,14 +9,38 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-
+    
+    @IBOutlet weak var percent1Field: UITextField!
+    
+    @IBOutlet weak var percent2Field: UITextField!
+    
+    @IBOutlet weak var percent3Field: UITextField!
+    
+    let defaults = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func setPercent1(_ sender: Any) {
+        let newPercent = Double(percent1Field.text!) ?? defaults.double(forKey: "percent1")
+        defaults.set(newPercent, forKey: "percent1")
+        defaults.synchronize()
+    }
 
+    @IBAction func setPercent2(_ sender: Any) {
+        let newPercent = Double(percent2Field.text!) ?? defaults.double(forKey: "percent2")
+        defaults.set(newPercent, forKey: "percent2")
+        defaults.synchronize()
+    }
+
+    @IBAction func setPercent3(_ sender: Any) {
+        let newPercent = Double(percent3Field.text!) ?? defaults.double(forKey: "percent3")
+        defaults.set(newPercent, forKey: "percent3")
+        defaults.synchronize()
+    }
+    
     /*
     // MARK: - Navigation
 
