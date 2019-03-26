@@ -36,6 +36,8 @@ GIF created with [Recordit](http://recordit.co).
 
 Describe any challenges encountered while building the app.
 
+Overall, re-learning to use Xcode was difficult at times. Additionally, setting the default segment of the segmented control became tedious.
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]
