@@ -18,6 +18,8 @@ class SettingsViewController: UIViewController {
     
     @IBOutlet weak var percent3Field: UITextField!
     
+    @IBOutlet weak var currencyField: UITextField!
+    
     let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
@@ -46,6 +48,12 @@ class SettingsViewController: UIViewController {
     @IBAction func setPercent3(_ sender: Any) {
         let newPercent = Double(percent3Field.text!) ?? defaults.double(forKey: "percent3")
         defaults.set(newPercent, forKey: "percent3")
+        defaults.synchronize()
+    }
+    
+    @IBAction func setCurrency(_ sender: Any) {
+        let newCurr = String(currencyField.text!) ?? defaults.string(forKey: "currency")
+        defaults.set(newCurr, forKey: "currency")
         defaults.synchronize()
     }
     

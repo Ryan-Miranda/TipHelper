@@ -23,19 +23,34 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //update labels w/ user selected currency
+        tipLabel.text = (defaults.string(forKey: "currency") ?? "$") + "0.00"
+        totalLabel.text = (defaults.string(forKey: "currency") ?? "$") + "0.00"
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        //update segemented control w/ user default percentages
+       
         tipControl.removeAllSegments()
        
         let percents = [defaults.integer(forKey: "percent1"), defaults.integer(forKey: "percent2"), defaults.integer(forKey: "percent3")]
         
+        //update segemented control w/ user default percentages
         for i in 0...(percents.count - 1){
             tipControl.insertSegment(withTitle: "\(percents[i])%", at: i, animated: true)
         }
+        
+        //select the segment user set as default
+        for i in 0...(percents.count - 1){
+            if percents[i] == defaults.integer(forKey: "defPercent"){
+                tipControl.setEnabled(true, forSegmentAt: i)
+            }
+        }
+        
+        //update labels w/ user selected currency
+        tipLabel.text = (defaults.string(forKey: "currency") ?? "$") + "0.00"
+        totalLabel.text = (defaults.string(forKey: "currency") ?? "$") + "0.00"
     }
 
     @IBAction func onTap(_ sender: Any) {
@@ -60,9 +75,10 @@ class ViewController: UIViewController {
         
         let total = bill + tip
         
-        //update tip & total labels
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
+        //update tip & total labels using user selected currency
+        let curr = defaults.string(forKey: "currency") ?? "$"
+        tipLabel.text = curr + String(format: "%.2f", tip)
+        totalLabel.text = curr + String(format: "%.2f", total)
     }
 }
 
