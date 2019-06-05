@@ -69,7 +69,7 @@ User
 | favoritedProducts      | Product      | Products user has “liked” on the feed                     |
 | purchasedProducts      | Product      | Products user has bought                                  |
 
-| Tables        | Are           | Cool  |
+| Property      | Type          | Description  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
