@@ -96,11 +96,13 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 * Signup Screen
     * (Create/POST) Signup new user
 * Home Feed Screen
-    * (find/READ) Query all products available to purchase
+    * (find/READ) Query all recent products available to purchase
+    ![](https://i.imgur.com/9JvFxV0.png)
     * (find/READ) Query all products with tags specified by user
     * (Update/PUT) "Like" product
 * List Product Screen
      * (Create/POST) List product for sale
+     ![](https://i.imgur.com/ie7t4Rd.png)
 * Detailed Product Screen
     * (Update/PUT) Buy product
 * Transactions Screen
