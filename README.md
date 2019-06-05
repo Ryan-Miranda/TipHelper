@@ -97,10 +97,19 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 * Home Feed Screen
     * (find/READ) Query all products available to purchase
     * (find/READ) Query all products with tags specified by user
-    * (Update/PUT)
+    * (Update/PUT) "Like" product
 * List Product Screen
+     * (Create/POST) List product for sale
+* Detailed Product Screen
+    * (Update/PUT) Buy product
 * Transactions Screen
+    * (find/READ) Query all products user has bought
+    * (find/READ) Query all products user has sold
 * Favorites Screen
+    * (find/READ) Query all products user has "liked"
+    * (Update/PUT) "Unlike" product
 * Profile Screen
+    * (Read/GET) Query current user
 * Edit Profile Screen
+    * (Update/PUT) Edit user profile information
 
