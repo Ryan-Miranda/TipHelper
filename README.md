@@ -91,8 +91,13 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 #### List of network requests by screen
 
 * Login Screen
+    * (Read/GET) Log in user
 * Signup Screen
+    * (Create/POST) Signup new user
 * Home Feed Screen
+    * (find/READ) Query all products available to purchase
+    * (find/READ) Query all products with tags specified by user
+    * (Update/PUT)
 * List Product Screen
 * Transactions Screen
 * Favorites Screen
