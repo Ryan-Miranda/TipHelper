@@ -74,3 +74,4 @@ User
 | phoneNUmber      | String | User's phone number |
 | profilePicture      | PFFileObject     |   User's profile picture |
 | interests | [Strings]      |    User's interests used for buyers to find like-minded sellers |
+| numberOfItemsBought | Int | Number of products user has bought
