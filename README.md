@@ -55,9 +55,11 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
     limitations under the License.
 
 
-# Schema 
+## Schema
 
-### User
+### Models
+
+#### User
 
 | Property      | Type          | Description  |
 | --- | --- | --- |
@@ -70,7 +72,7 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 | favoritedProducts | [Product] | Products user has "liked" on the feed |
 | purchasedProducts | [Product] | Products user had bought |
 
-### Product
+#### Product
 
 | Property      | Type          | Description  |
 | ------------- | ------------- | ----- |
@@ -83,3 +85,17 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 | isPurchased | Bool | True if a user has bought the product |
 | purchaser | User | User who bought the product |
 | favoritedUser | [User] | Users who have "liked" the product on the feed |
+
+### Networking
+
+#### List of network requests by screen
+
+* Login Screen
+* Signup Screen
+* Home Feed Screen
+* List Product Screen
+* Transactions Screen
+* Favorites Screen
+* Profile Screen
+* Edit Profile Screen
+
