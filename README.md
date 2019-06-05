@@ -58,16 +58,16 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 # Schema 
 
 User
-| Property| Type | Description |
-| ------- | ---- | ----------- |
-| phoneNumber | String  | User’s phone number |
-| profilePicture | PFFileObject | User’s profile picture |
-| interests | Strings | User’s interests used for buyers to find sellers|
-| numberOfItemsBought | Int | Number of products user has bought |
-| numberOfItemsUpForSale | Int | Number of products user has listed available for purchase |
-| numberOfItemsSold | Int | Number of products user has sold |
-| favoritedProducts | Product | Products user has “liked” on the feed |
-| purchasedProducts | Product | Products user has bought |
+| Property               | Type         | Description                                               |
+| ---------------------- | ------------ | --------------------------------------------------------- |
+| phoneNumber            | String       | User’s phone number                                       |
+| profilePicture         | PFFileObject | User’s profile picture                                    |
+| interests              | Strings      | User’s interests used for buyers to find sellers          |
+| numberOfItemsBought    | Int          | Number of products user has bought                        |
+| numberOfItemsUpForSale | Int          | Number of products user has listed available for purchase |
+| numberOfItemsSold      | Int          | Number of products user has sold                          |
+| favoritedProducts      | Product      | Products user has “liked” on the feed                     |
+| purchasedProducts      | Product      | Products user has bought                                  |
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
