@@ -57,7 +57,7 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 
 # Schema 
 
-User
+### User
 
 | Property      | Type          | Description  |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ User
 | favoritedProducts | [Product] | Products user has "liked" on the feed |
 | purchasedProducts | [Product] | Products user had bought |
 
-Product
+### Product
 
 | Property      | Type          | Description  |
 | ------------- | ------------- | ----- |
