@@ -58,17 +58,6 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 # Schema 
 
 User
-| Property               | Type         | Description                                               |
-| ---------------------- |:------------:| ---------------------------------------------------------:|
-| phoneNumber            | String       | User’s phone number                                       |
-| profilePicture         | PFFileObject | User’s profile picture                                    |
-| interests              | Strings      | User’s interests used for buyers to find sellers          |
-| numberOfItemsBought    | Int          | Number of products user has bought                        |
-| numberOfItemsUpForSale | Int          | Number of products user has listed available for purchase |
-| numberOfItemsSold      | Int          | Number of products user has sold                          |
-| favoritedProducts      | Product      | Products user has “liked” on the feed                     |
-| purchasedProducts      | Product      | Products user has bought                                  |
-
 | Property      | Type          | Description  |
 | ------------- | ------------- | ----- |
 | phoneNUmber      | String | User's phone number |
@@ -79,3 +68,16 @@ User
 | numberOfItemsSold | Int | Number of products user has sold |
 | favoritedProducts | [Product] | Products user has "liked" on the feed |
 | purchasedProducts | [Product] | Products user had bought |
+
+Product
+| Property      | Type          | Description  |
+| ------------- | ------------- | ----- |
+| name      | String | User's phone number |
+| blurb      | String     |   User's profile picture |
+| price | Double      |    User's interests used for buyers to find like-minded sellers |
+| picture | PFFileObject | Number of products user has bought |
+| tags | [String] | Number of products user has listed that are available for purchase |
+| seller | User | Number of products user has sold |
+| isPurchased | Bool | Products user has "liked" on the feed |
+| purchaser | User | Products user had bought |
+| favoritedUser | [User] | Products user had bought |
