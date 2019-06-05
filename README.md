@@ -92,6 +92,7 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 
 * Login Screen
     * (Read/GET) Log in user
+    (https://imgur.com/a/pcX6UHI)
 * Signup Screen
     * (Create/POST) Signup new user
 * Home Feed Screen
