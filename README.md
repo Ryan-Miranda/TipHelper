@@ -59,7 +59,7 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 
 User
 | Property      | Type          | Description  |
-| ------------- | ------------- | ----- |
+| --- | --- | --- |
 | phoneNUmber      | String | User's phone number |
 | profilePicture      | PFFileObject     |   User's profile picture |
 | interests | [Strings]      |    User's interests used for buyers to find like-minded sellers |
