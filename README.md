@@ -74,4 +74,8 @@ User
 | phoneNUmber      | String | User's phone number |
 | profilePicture      | PFFileObject     |   User's profile picture |
 | interests | [Strings]      |    User's interests used for buyers to find like-minded sellers |
-| numberOfItemsBought | Int | Number of products user has bought
+| numberOfItemsBought | Int | Number of products user has bought |
+| numberOfItemsUpForSale | Int | Number of products user has listed that are available for purchase |
+| numberOfItemsSold | Int | Number of products user has sold |
+| favoritedProducts | [Product] | Products user has "liked" on the feed |
+| purchasedProducts | [Product] | Products user had bought |
