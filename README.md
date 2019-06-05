@@ -72,5 +72,5 @@ User
 | Property      | Type          | Description  |
 | ------------- | ------------- | ----- |
 | phoneNUmber      | String | User's phone number |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| profilePicture      | PFFileObject     |   User's profile picture |
+| interests | [Strings]      |    User's interests used for buyers to find like-minded sellers |
