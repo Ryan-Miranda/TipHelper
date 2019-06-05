@@ -75,11 +75,11 @@ Product
 | Property      | Type          | Description  |
 | ------------- | ------------- | ----- |
 | name      | String | User's phone number |
-| blurb      | String     |   User's profile picture |
-| price | Double      |    User's interests used for buyers to find like-minded sellers |
-| picture | PFFileObject | Number of products user has bought |
-| tags | [String] | Number of products user has listed that are available for purchase |
-| seller | User | Number of products user has sold |
-| isPurchased | Bool | Products user has "liked" on the feed |
-| purchaser | User | Products user had bought |
-| favoritedUser | [User] | Products user had bought |
+| blurb      | String     |   Name of the product given by seller |
+| price | Double      |    Price of the product set by seller |
+| picture | PFFileObject | Picture of the product uploaded by seller |
+| tags | [String] | Tags assigned to the product allowing users' to search for it by tag |
+| seller | User | User who listed the product for sale|
+| isPurchased | Bool | True if a user has bought the product |
+| purchaser | User | User who bought the product |
+| favoritedUser | [User] | Users who have "liked" the product on the feed |
