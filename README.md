@@ -58,6 +58,7 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 # Schema 
 
 User
+
 | Property      | Type          | Description  |
 | --- | --- | --- |
 | phoneNUmber      | String | User's phone number |
@@ -70,6 +71,7 @@ User
 | purchasedProducts | [Product] | Products user had bought |
 
 Product
+
 | Property      | Type          | Description  |
 | ------------- | ------------- | ----- |
 | name      | String | User's phone number |
