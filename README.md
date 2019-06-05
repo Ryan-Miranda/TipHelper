@@ -71,6 +71,6 @@ User
 
 | Property      | Type          | Description  |
 | ------------- | ------------- | ----- |
-| col 3 is      | right-aligned | $1600 |
+| phoneNUmber      | String | User's phone number |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
