@@ -96,7 +96,7 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
     * (Read/GET) Log in user
     ![](https://i.imgur.com/NseuxzM.png)
 * Signup Screen
-    * (Create/POST) Signup new user
+    * (Create/POhttp://recordit.co/xta85oUe2x' title='Edit Profile Walkthrough' width='' alt='Edit Profile WalkthroughST) Signup new user
 * Home Feed Screen
     * (find/READ) Query all recent products available to purchase
     ![](https://i.imgur.com/9JvFxV0.png)
