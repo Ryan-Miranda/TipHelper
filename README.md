@@ -124,21 +124,27 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 Here's a walkthrough of implemented user stories:
 
 Signing Up A New User
+
 <img src='http://g.recordit.co/pa1T9gxWlC.gif' title='Edit Profile Walkthrough' width='' alt='Edit Profile Walkthrough' />
 
 Home Feed
+
 <img src='http://g.recordit.co/ugprygz0H6.gif' title='Home Feed/Search Walkthrough' width='' alt='Home Feed/Search Walkthrough' />
 
 Product Map
+
 <img src='http://g.recordit.co/dw2P5OMbIj.gif' title='Map Walkthrough' width='' alt='Map Walkthrough' />
 
 Buying a Product
+
 <img src='http://g.recordit.co/jL43Itv7Yu.gif' title='Buy Product Walkthrough' width='' alt='Buy Product Walkthrough' />
 
 Liking a Product
+
 <img src='http://g.recordit.co/WTcKAHb5Kt.gif' title='Favorite Product Walkthrough' width='' alt='Favorite Product Walkthrough' />
 
 Editing User Information
+
 <img src='http://g.recordit.co/xta85oUe2x.gif' title='Edit Profile Walkthrough' width='' alt='Edit Profile Walkthrough' />
 
 ## Presentation
