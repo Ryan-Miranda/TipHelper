@@ -118,3 +118,20 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 * Edit Profile Screen
     * (Update/PUT) Edit user profile information
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/ugprygz0H6.gif' title='Home Feed/Search Walkthrough' width='' alt='Home Feed/Search Walkthrough' />
+
+<img src='http://g.recordit.co/dw2P5OMbIj.gif' title='Map Walkthrough' width='' alt='Map Walkthrough' />
+
+<img src='http://g.recordit.co/jL43Itv7Yu.gif' title='Buy Product Walkthrough' width='' alt='Buy Product Walkthrough' />
+
+<img src='http://g.recordit.co/WTcKAHb5Kt.gif' title='Favorite Product Walkthrough' width='' alt='Favorite Product Walkthrough' />
+
+<img src='http://g.recordit.co/WTcKAHb5Kt.gif' title='Edit Profile Walkthrough' width='' alt='Edit Profile Walkthrough' />
+
+## Presentation
+
+Here's our group's [presentation](https://docs.google.com/presentation/d/1K4hWnZvDNBNhtFP86CC2isnme1pPXQQFDEsXKq6Rmbc/edit?usp=sharing) for CodePath at UCI's Demo Day 6/8/19.
