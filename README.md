@@ -144,7 +144,7 @@ Liking a Product
 
 Editing User Information
 
-<img src='http://recordit.co/xta85oUe2x' title='Edit Profile Walkthrough' width='' alt='Edit Profile Walkthrough' />
+<img src='http://g.recordit.co/xta85oUe2x.gif' title='Edit Profile Walkthrough' width='' alt='Edit Profile Walkthrough' />
 
 ## Presentation
 
