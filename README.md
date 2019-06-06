@@ -85,6 +85,8 @@ Overall, re-learning to use Xcode was difficult at times. Additionally, setting 
 | isPurchased | Bool | True if a user has bought the product |
 | purchaser | User | User who bought the product |
 | favoritedUser | [User] | Users who have "liked" the product on the feed |
+| latitude | Double | Latitude coordinate of the product |
+| longitude | Double | Longitude coordinate of the product |
 
 ### Networking
 
